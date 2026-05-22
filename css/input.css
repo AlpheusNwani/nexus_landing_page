@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+
+@theme {
+    --color-Dark-blue: #0f172a;
+    --color-Blue-shade: #152032;
+    --color-Light-blue: #3b82f6;
+    --color-Purple-p: #a755f7;
+    --color-Green-c: #27c45b;
+    --color-light-gray: #1e293b;
+    --color-lighter-gray:#324154;
+   
+} 
+
+.link {
+    @apply text-white/70 text-2xl rounded p-2 hover:text-Light-blue font-medium
+}
+
+
